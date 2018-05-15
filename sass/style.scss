@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+$bodyFont: 'Lato';
+
+body{
+    margin: 0;
+}
+
+div, p{
+    font-family: $bodyFont;
+}
+
+.page-title{
+    margin-left: 15px;
+    font-family: 22pt;
+    font-family: $bodyFont;
+    font-weight: 500;
+}
+
+.item-list{
+    border-top: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    & > li {
+        .item-title{
+            font-size: 13pt;
+            margin-bottom: 2px;
+        }
+        .item-subtitle{
+            font-size: 11pt;
+            opacity: 0.6;
+        }
+        list-style: none;
+        padding: 15px;
+        margin: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .item-new-event{
+        background: #ddd;
+    }
+}
+
