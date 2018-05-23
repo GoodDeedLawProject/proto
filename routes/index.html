@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1 class="page-title">Hello Router</h1>
+    <p>
+      <router-link to="/user/meikul">/user/meikul</router-link>
+      <router-link to="/user/meikul/profile">/user/meikul/profile</router-link>
+      <router-link to="/user/meikul/posts">/user/meikul/posts</router-link>
+    </p>
+    <router-view></router-view>
+  </div>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="routes.js" charset="utf-8"></script>
+</body>
+
+</html>
